@@ -1,0 +1,25 @@
+git checkout -b feature/new_functionality
+Теперь создадим файл index.html, добавив следующий код:
+html
+Копировать
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Привет мир!</h1>
+</body>
+</html>
+Также создадим пустой файл стилей styles.css:
+css
+Копировать
+/* Простые стили */
+body {
+    background-color: #f0f0f0;
+}
+h1 {
+    color: blue;
+}
