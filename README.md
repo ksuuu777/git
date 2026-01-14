@@ -1,24 +1,4 @@
 
-# Hello World Website Project
-Этот проект представляет собой простой статический веб-сайт, выводящий приветственное сообщение на домашней странице.
-## Установка
-Чтобы запустить проект на вашем компьютере, выполните следующие шаги:
-1. Убедитесь, что у вас установлен Node.js (или другой сервер для запуска HTML-файлов).
-2. Склонируйте репозиторий командой:
-   ```
-   git clone https://github.com/<your_username>/hello-world-site.git
-   ```
-3. Откройте файл index.html в браузере.
-## Файлы проекта
-- `index.html`: Главная страница сайта.
-- `styles.css`: CSS-стили страницы.
-- `.gitignore`: Список файлов, игнорируемых системой контроля версий.
-## Автор
-Осьминина Ксюша
-html
-Копировать
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
@@ -28,18 +8,3 @@ html
     <h1>Привет мир!</h1>
 </body>
 </html>
-Также создадим пустой файл стилей styles.css:
-css
-Копировать
-/* Простые стили */
-body {
-    background-color: #f0f0f0;
-}
-h1 {
-    color: blue;
-}
-Этап 2: Отправляем изменения в репозиторий
-Запишем файлы в индекс и отправим изменения в удалённый репозиторий:
-git add .
-git commit -m "Add new functionality to display greeting message."
-git push origin feature/new_functionality
